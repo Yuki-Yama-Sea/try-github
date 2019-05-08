@@ -6,9 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello GitHub!");
-            Console.WriteLine("画面を閉じるには何かキーを入力してください。");
+            plus sum = new plus();
+            int n = sum.Add(12, 3);
+            Console.WriteLine(n);
+
+            keisann sum2 = new keisann();
+            int n2 = sum2.App(12, 3);
+            Console.WriteLine(n2);
             Console.ReadKey();
 
         }
